@@ -1,0 +1,32 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    position: relative;
+}
+.page-inner{
+    text-align: center;
+}
+
+.page-header{
+    text-align: center;
+    padding: 20px 0;
+    color: #000;
+ }
+ 
+
+.search .form-control {
+    min-width: 150px;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+.footer {
+    margin-top:auto;
+    width: 100%;
+}
