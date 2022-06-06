@@ -48,12 +48,6 @@ export default {
       this.modalItem = item
       this.showModal = true
     },
-  },
-  created(){
-      this.$nuxt.$on('modal-delete-click', this.handleOrderCancel);
-    },
-    beforeDestroy() {
-      this.$nuxt.$off('modal-delete-click', this.handleOrderCancel);
-    }
+  }
 }
 </script>

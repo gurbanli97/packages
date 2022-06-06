@@ -51,6 +51,15 @@ export default {
         this.$emit('close');
     },
   },
+  watch:{
+    active(val) {
+      if(val)
+        document.body.classList.add('modal-active');
+      else 
+        document.body.classList.remove('modal-active');  
+
+  },
+  },
   mounted() {
     window.addEventListener('keydown', this.handleEscapeKey);
   },
